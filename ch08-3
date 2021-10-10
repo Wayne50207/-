@@ -1,0 +1,29 @@
+
+class Cddd
+{
+	string name;
+  double height;
+  double weight;
+}
+	
+	public class hw8-3
+	{
+		
+		public static void main (string args[])
+		{
+			double bmi;
+      cddd student=new Cddd();
+      
+		student.name="Sandy";
+    student.height=165.5;
+    student.weight=58.2;
+    
+    student.height/=100;
+    bmi=student.weight/(student.height*student.height);
+    
+		    System.out.println("name="+student.name);
+		    System.out.println("height="+student.height*100+"cm");
+		    System.out.println("weight="+student.weight+"kg");
+        System.out.println("BMI="+bmi);
+		}
+	}
